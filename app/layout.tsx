@@ -1,5 +1,5 @@
 import "@/app/ui/global.css";
-import { inter, notoSans } from "./ui/font";
+import { inter, notoSans } from "./ui/fonts";
 
 export default function RootLayout({
   children,
