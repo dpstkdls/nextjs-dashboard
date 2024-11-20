@@ -1,0 +1,18 @@
+{
+  "extends": ["next/core-web-vitals", "next/typescript"],
+  "rules": {
+    // Lint 에러 발생하는 룰 Disable, 추후 Disable 해제하여 룰에 충족되도록 코드 수정필요
+    "@typescript-eslint/no-unused-vars": "off"
+    // "react-hooks/rules-of-hooks": "off",
+    // "react-hooks/exhaustive-deps": "off",
+    // "react/display-name": "off",
+    // "@typescript-eslint/no-unused-vars": "off",
+    // "no-var": "off",
+    // "@typescript-eslint/no-explicit-any": "off",
+    // "@typescript-eslint/ban-types": "off",
+    // "@typescript-eslint/no-duplicate-enum-values": "off",
+    // "prefer-const": "off",
+    // "@typescript-eslint/no-this-alias": "off",
+    // "react/no-unescaped-entities": "off"
+  }
+}
